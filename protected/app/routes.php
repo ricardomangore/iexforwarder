@@ -20,6 +20,7 @@ if (defined('CNF_MULTILANG') && CNF_MULTILANG == 1) {
 
 Route::controller('user', 'UserController'); 
 Route::get('/', 'HomeController@index');
+Route::controller('portfolio','PortfolioController');
 Route::controller('home', 'HomeController');
 Route::controller('blog', 'BlogController');
 include('pageroutes.php');

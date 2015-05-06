@@ -19,7 +19,8 @@
 		{{ HTML::style('sximo/css/animate.css')}}		
 		{{ HTML::style('sximo/css/icons.min.css')}}
 		
-		
+		{{ HTML::style('iexresources/js/plugins/dataTable/css/jquery.dataTables.min.css')}}
+		{{ HTML::style('iexresources/js/plugins/dataTable/css/dataTables.bootstrap.css')}}
 		
 
 		{{ HTML::script('sximo/js/plugins/jquery.min.js') }}
@@ -38,6 +39,11 @@
 		{{ HTML::script('sximo/js/sximo.js') }}
 		{{ HTML::script('sximo/js/plugins/jquery.jCombo.min.js') }}
 		{{ HTML::script('sximo/js/plugins/bootstrap.summernote/summernote.min.js') }}
+		
+		{{ HTML::script('iexresources/js/plugins/dataTable/js/jquery.dataTables.min.js') }}
+		{{ HTML::script('iexresources/js/plugins/dataTable/js/dataTables.bootstrap.js') }}
+		{{ HTML::script('iexresources/js/iexforwarder/iexportfolio.js') }}
+		
 		{{ SiteHelpers::initMarkitUp() }}
 		
 

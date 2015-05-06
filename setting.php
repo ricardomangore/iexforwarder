@@ -1,10 +1,10 @@
 <?php 
-define('CNF_APPNAME','Laravel - Sximo');
-define('CNF_APPDESC','Internal PHP Application');
-define('CNF_COMNAME','My Company Name');
-define('CNF_EMAIL','info@mail.com');
+define('CNF_APPNAME','IEX Forwarder');
+define('CNF_APPDESC','Internal Application');
+define('CNF_COMNAME','Intermodal Express');
+define('CNF_EMAIL','ricardomangore@gmail.com');
 define('CNF_METAKEY','my site , my company  , Larvel Crud');
-define('CNF_METADESC','Write description for your site');
+define('CNF_METADESC','Forwarder System by Intermodal Express');
 define('CNF_GROUP','3');
 define('CNF_ACTIVATION','confirmation');
 define('CNF_MULTILANG','1');
